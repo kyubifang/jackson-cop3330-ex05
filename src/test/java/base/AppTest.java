@@ -17,10 +17,11 @@ class AppTest {
         int multiply = intOne * intTwo;
         int divide = intOne / intTwo;
 
-        String expectedOutput = "10 + 5 = 15\n" +
-                "10 - 5 = 5\n" +
-                "10 * 5 = 50\n" +
-                "10 / 5 = 2";
+        String expectedOutput = """
+                10 + 5 = 15
+                10 - 5 = 5
+                10 * 5 = 50
+                10 / 5 = 2""";
         String actualOutput = myApp.generateOutputString(numOne, numTwo, add, subtract, multiply, divide);
 
         assertEquals(expectedOutput, actualOutput);
