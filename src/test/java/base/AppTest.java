@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test
-    public void output_string_includes_numbers_and_coversions() {
+    public void output_string_includes_numbers_and_conversions() {
         App myApp = new App();
         String numOne = "10";
         String numTwo = "5";
