@@ -67,29 +67,25 @@ public class App {
     public int addition(String numOne, String numTwo) {
         int intOne = Integer.parseInt(numOne);
         int intTwo = Integer.parseInt(numTwo);
-        int sum = intOne + intTwo;
-        return sum;
+        return intOne + intTwo;
     }
 
     public int subtraction(String numOne, String numTwo) {
         int intOne = Integer.parseInt(numOne);
         int intTwo = Integer.parseInt(numTwo);
-        int difference = intOne - intTwo;
-        return difference;
+        return intOne - intTwo;
     }
 
     public int multiplication(String numOne, String numTwo) {
         int intOne = Integer.parseInt(numOne);
         int intTwo = Integer.parseInt(numTwo);
-        int product = intOne * intTwo;
-        return product;
+        return intOne * intTwo;
     }
 
     public int division(String numOne, String numTwo) {
         int intOne = Integer.parseInt(numOne);
         int intTwo = Integer.parseInt(numTwo);
-        int quotient = intOne / intTwo;
-        return quotient;
+        return intOne / intTwo;
     }
 
     public String generateOutputString(String numOne, String numTwo, int add, int subtract, int multiply, int divide) {
